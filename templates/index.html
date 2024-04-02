@@ -60,7 +60,7 @@
     <div class="container">
       <h1>Heat Stress Comparison</h1>
     </div>
-    <div>
+    <div id="loader_parent">
       <div class="loader" id="loader"></div>
     </div>
 
@@ -81,13 +81,16 @@
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       var loader = document.getElementById("loader");
+      var loader_parent = document.getElementById("loader_parent");
       var resultDiv = document.getElementById("result");
 
       loader.style.display = "block";
+      loader_parent.style.display = "block";
 
       fetch("/compare-past-week")
         .then((response) => response.json())
         .then((data) => {
+          loader_parent.style.display = "none";
           loader.style.display = "none";
           resultDiv.style.display = "flex";
           resultDiv.innerHTML = `
