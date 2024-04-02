@@ -11,7 +11,7 @@ This is a Python project created by [Your Name]. It serves as a demonstration of
     2. source venv/bin/activate
 4. Install the required dependencies: ** pip install -r requirements.txt **
 
-To run the Flask API, execute the following command: python app.py
+To run the Flask API, execute the following command: ** python app.py **
 
 
 ## API Endpoints
