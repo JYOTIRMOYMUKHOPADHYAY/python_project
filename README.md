@@ -4,14 +4,14 @@ This is a Python project created by [Your Name]. It serves as a demonstration of
 
 ## Installation
 
-1. Clone the repository: git clone https://github.com/your_username/python_project.git
+1. Clone the repository: git clone https://github.com/JYOTIRMOYMUKHOPADHYAY/python_project
 2. Navigate to the project directory:
 3. Create and activate a virtual environment:
     1. python3 -m venv venv
     2. source venv/bin/activate
 4. Install the required dependencies: ** pip install -r requirements.txt **
 
-To run the Flask API, execute the following command: ** python app.py **
+To run the Flask API, execute the following command: ** python3 app.py OR python app.py **
 
 
 ## API Endpoints
